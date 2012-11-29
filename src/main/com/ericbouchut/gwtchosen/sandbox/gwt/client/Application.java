@@ -63,7 +63,7 @@ public class Application
         safeHtmlBuilder
                 .appendEscapedLines("Step 1: Select a list item (\"Java\" for instance). The expected window pops up\n");
         safeHtmlBuilder
-                .appendEscapedLines("Step 2: click the button labeled \"chosenListBox.setSelectedItem(0)\"\n");
+                .appendEscapedLines("Step 2: Click the button labeled \"chosenListBox.setSelectedItem(0)\"\n");
         safeHtmlBuilder
                 .appendEscapedLines("Step 3: Re-select the very same list item as before (\"Java\"). This time the expected window does not pop up because no ChosenChangeEvent is triggered.\n\n");
         SafeHtml message = safeHtmlBuilder.toSafeHtml();

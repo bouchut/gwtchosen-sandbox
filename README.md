@@ -17,4 +17,4 @@ This calls `setSelectedItem(0)` on the ChosenListBoxi, selecting the first list 
 3. Re-select the very same list item as before _Java_. 
 This time the expected window *does not* pop up because no ChosenChangeEvent is triggered.
 
-[bug]: jdramaix/gwtchosen#29  "Bug"
+[bug]: https://github.com/jDramaix/gwtchosen/issues/29  "Bug"

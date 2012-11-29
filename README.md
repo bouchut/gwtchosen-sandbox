@@ -1,6 +1,6 @@
 ChosenChangeEvent not triggered after Chosen.setSelectedItem(n)
 ----
-This GWT project is aimed to help reproduce the bug jDramaix/gwtchosen/issues/29
+This GWT project is aimed to help reproduce the [bug][]
 in GWT-Chosen where a ChosenChangeEvent is not triggered.
 
 The application configures a ChosenChangeHandler to open popup a window each time you select a list item.
@@ -17,3 +17,4 @@ This calls `setSelectedItem(0)` on the ChosenListBoxi, selecting the first list 
 3. Re-select the very same list item as before _Java_. 
 This time the expected window *does not* pop up because no ChosenChangeEvent is triggered.
 
+[bug]: jDramaix/gwtchosen#29  "Bug"
